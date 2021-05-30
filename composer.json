@@ -1,0 +1,24 @@
+{
+    "name": "multimirror/multimirror-driver",
+    "description": "Laravel driver for multimirror broadcaster",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mulitmirror",
+            "email": "dev@multimirror.io"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Multimirror\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Multimirror\\MultimirrorServiceProvider"
+            ]
+        }
+    }
+}
